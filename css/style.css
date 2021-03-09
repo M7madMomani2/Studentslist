@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body{
+  background-image: url("https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpg&cs=fFNQTw&docid=https%3A%2F%2Falqudscollege-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!2spDmTvk_Ey3l_QSLPv1vkLnsRzUCaRDqWTh1FX8GP5tUMRzFWzmQ47zimRsNl9q%2Fitems%2F015YABFJX6OTTMEM5MWVCZFHPXYJGKR637%3Fversion%3DPublished&encodeFailures=1&ctag=%22c%3A%7BC2E674FE-AC33-45B5-929D-F7C24CA8FB7F%7D%2C1%22&srcWidth=&srcHeight=&width=563&height=375&action=Access");
+  background-size: cover;
+}
+
+header{
+  background-color: rgba(96, 96, 96,0.6);
+  border-bottom:3px solid #fff;
+  height: 10vh;
+}
+nav ul {
+  float: right;
+  margin-right: 5vw;
+}
+nav ul li {
+  display: inline;
+  position: relative;
+  padding: 2vh 2vw;
+  top: 3vh;
+}
+nav ul li a {
+text-align: center;
+color: #fff;
+text-transform: uppercase;
+font-size: large;
+font-family: 'Roboto';
+
+  
+}
+#logo{
+  display: block;
+  font-size: x-large;
+  font-weight: bold;
+  position: absolute;
+  top: 2vh;
+  right: 50vw;
+  color: #fff;
+}
+#containerform{
+background-color: rgba(96, 96, 96,0.6);
+width: 35vw;
+height: 50vh;
+margin: 2vh 3vw;
+}
+
+#containerinfo{
+  background-color: rgba(96, 96, 96,0.6);
+  width: 50vw;
+  float: right;
+  height: 50vh;
+  margin: 0 3vw;
+
+
+}
+table{
+  text-align: center;
+  border: 2px solid black;
+  width: 90%;
+  margin: 1vh 2vw;
+}
+
+tr , td , th {
+  border: 2px solid rgb(71, 0, 0);
+  color: #fff;
+}
+h2 {
+  text-align: center;
+  font-size: x-large;
+  color: #fff;
+}
